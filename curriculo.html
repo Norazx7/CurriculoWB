@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo — Witorio Bandeira Couto</title>
+
+<style>
+*{ margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+body{
+  background:#0b0b0b;
+  color:#eaeaea;
+  padding:40px 0;
+  display:flex;
+  justify-content:center;
+}
+.cv{
+  width:900px;
+  background:#0f0f0f;
+  border-radius:20px;
+  border:1px solid #2a2a2a;
+  padding:55px;
+  box-shadow:0 0 40px rgba(255,0,0,0.12);
+}
+
+/* CABEÇALHO */
+.header{
+  display:flex;
+  align-items:center;
+  gap:35px;
+  margin-bottom:40px;
+}
+.header img{
+  width:155px;
+  height:155px;
+  object-fit:cover;
+  border-radius:14px;
+  border:3px solid #ff1a1a;
+  box-shadow:0 0 18px rgba(255,0,0,0.25);
+}
+.header h1{
+  font-size:36px;
+  font-weight:800;
+  color:#ff1a1a;
+}
+.header h2{
+  font-size:18px;
+  opacity:.8;
+  margin-bottom:10px;
+}
+
+/* LINKS */
+.link-btn{
+  display:inline-block;
+  background:linear-gradient(90deg,#b00000,#ff1a1a);
+  padding:8px 16px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:700;
+  color:white;
+  margin-top:8px;
+}
+
+/* TITULOS */
+.section-title{
+  color:#ff1a1a;
+  font-size:22px;
+  font-weight:700;
+  margin:28px 0 12px;
+  border-left:4px solid #ff1a1a;
+  padding-left:12px;
+}
+
+/* LISTAS */
+ul{ list-style:none; }
+ul li{
+  background:#161616;
+  border:1px solid #242424;
+  padding:10px 14px;
+  border-radius:10px;
+  margin-bottom:8px;
+}
+
+/* EXPERIÊNCIA */
+.exp-item{
+  background:#161616;
+  border:1px solid #242424;
+  padding:14px 18px;
+  border-radius:12px;
+  margin-bottom:16px;
+}
+.exp-item h3{ color:#ff1a1a; }
+.exp-item span{ opacity:.7; font-size:14px; }
+
+/* PORTFÓLIO */
+.port-item a{
+  color:#ff1a1a;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* IMPRESSÃO */
+@media print{
+  body{ background:#0b0b0b !important; }
+  *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+}
+</style>
+</head>
+
+<body>
+<div class="cv">
+
+  <!-- CABEÇALHO -->
+  <div class="header">
+    <img src="perfil.jpeg" alt="Foto de Witorio">
+
+    <div>
+      <h1>Witorio Bandeira Couto</h1>
+      <h2>Assistente de TI • Suporte Técnico • Desenvolvimento Front-End</h2>
+
+      <a href="https://www.linkedin.com/in/witoriobandeira/" target="_blank" class="link-btn">LinkedIn</a>
+      <a href="https://github.com/norazx7" target="_blank" class="link-btn">GitHub</a>
+    </div>
+  </div>
+
+  <!-- CONTATO -->
+  <h3 class="section-title">Contato</h3>
+  <ul>
+    <li><b>📍 Localização:</b> Araguaína – TO</li>
+    <li><b>📞 WhatsApp:</b> (63) 99116-0301</li>
+    <li><b>📧 Email:</b> bwittorio@hotmail.com</li>
+  </ul>
+
+  <!-- OBJETIVO -->
+  <h3 class="section-title">Objetivo</h3>
+  <p>Atuar como Assistente de TI, Suporte Técnico ou Desenvolvedor Front-End Júnior, contribuindo para ambientes tecnológicos eficientes, organizados e seguros.</p>
+
+  <!-- SOBRE -->
+  <h3 class="section-title">Sobre Mim</h3>
+  <p>Profissional de TI com experiência em informática, suporte técnico, redes sociais, marketing digital e criação de conteúdo. Apaixonado por tecnologia, desenvolvimento, experiência do usuário e soluções práticas para o dia a dia.</p>
+
+  <!-- HABILIDADES -->
+  <h3 class="section-title">Habilidades</h3>
+  <ul>
+    <li>HTML / CSS / JavaScript</li>
+    <li>Algoritmos e Estrutura de Dados</li>
+    <li>Análise de Dados</li>
+    <li>Pacote Office / Excel</li>
+    <li>Suporte Técnico</li>
+    <li>Atendimento ao Cliente</li>
+    <li>Informática Avançada</li>
+    <li>Comunicação</li>
+    <li>Organização e Proatividade</li>
+    <li>Marketing Digital</li>
+  </ul>
+
+  <!-- FERRAMENTAS -->
+  <h3 class="section-title">Ferramentas</h3>
+  <ul>
+    <li>Photoshop</li>
+    <li>Sony Vegas</li>
+    <li>After Effects</li>
+    <li>Visual Studio Code</li>
+    <li>GitHub</li>
+    <li>Excel</li>
+  </ul>
+
+  <!-- FORMAÇÃO -->
+  <h3 class="section-title">Formação</h3>
+  <ul>
+    <li><b>Curso Superior em Tecnologia (Cursando)</b> – 4º período (2024–Atualmente)</li>
+  </ul>
+
+  <!-- CERTIFICADOS -->
+  <h3 class="section-title">Certificados</h3>
+  <ul>
+    <li>Excel – Operações essenciais e fórmulas</li>
+    <li>Informática Aplicada – Sistemas, hardware e softwares</li>
+    <li>Marketing Digital – Estratégias e posicionamento</li>
+    <li>Photoshop – Manipulação e edição profissional</li>
+    <li>After Effects – Criação de animações e motion</li>
+  </ul>
+
+  <!-- EXPERIÊNCIA -->
+  <h3 class="section-title">Experiência Profissional</h3>
+
+  <div class="exp-item">
+    <h3>Comercial Reis</h3>
+    <span>2025 — 2025</span>
+    <p>Vendas, suporte técnico, organização administrativa e atendimento ao cliente.</p>
+  </div>
+
+  <div class="exp-item">
+    <h3>GMS Goiás</h3>
+    <span>2025 — 2025</span>
+    <p>Arquivamento, processos internos, organização de documentos e atividades administrativas.</p>
+  </div>
+
+  <div class="exp-item">
+    <h3>@.com — Técnico em Informática</h3>
+    <span>2024 — 2024</span>
+    <p>Suporte técnico, manutenção de sistemas e atendimento especializado.</p>
+  </div>
+
+  <div class="exp-item">
+    <h3>Arpoador — Garçom</h3>
+    <span>2023 — 2024</span>
+  </div>
+
+  <div class="exp-item">
+    <h3>Hotel Vito’s — Recepcionista</h3>
+    <span>2021 — 2022</span>
+  </div>
+
+  <!-- PORTFÓLIO -->
+  <h3 class="section-title">Portfólio</h3>
+  <ul class="port-item">
+    <li><a href="https://norazx7.github.io/Dashboard/" target="_blank">Dashboard – Análises e Gráficos</a></li>
+    <li><a href="https://norazx7.github.io/NotasIA/" target="_blank">Notas IA – CRUD com Inteligência Artificial</a></li>
+    <li><a href="https://norazx7.github.io/Curriculo-WitorioB/" target="_blank">Meu Site/Portfólio</a></li>
+  </ul>
+
+</div>
+</body>
+</html>
